@@ -10,6 +10,8 @@ const { JWT_SECRET } = process.env;
 
 module.exports = apiRouter;
 
+
+
 apiRouter.use((req, res, next) => {
     if (req.user) {
         s
