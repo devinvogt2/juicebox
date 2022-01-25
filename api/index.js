@@ -14,7 +14,6 @@ module.exports = apiRouter;
 
 apiRouter.use((req, res, next) => {
     if (req.user) {
-        s
         console.log('User is set: ', req.user);
     }
 
